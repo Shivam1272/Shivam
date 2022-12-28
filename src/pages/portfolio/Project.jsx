@@ -13,11 +13,11 @@ function Project({project}) {
           <div className="card-actions justify-end primary">
             {demoUrl &&
               <button>
-                <a href='#'>Demo</a>
+                <a href={demoUrl} rel="noreferrer" target='_blank'>Demo</a>
               </button>
             }
             <button className='btn btn-primary'>
-              <a href={codeUrl} target='_blank'>Code</a>
+              <a href={codeUrl} rel="noreferrer" target='_blank'>Code</a>
             </button>
           </div>
         </div>
