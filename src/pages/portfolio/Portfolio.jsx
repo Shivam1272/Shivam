@@ -28,7 +28,7 @@ function Portfolio() {
             projectUrl:netflix,
             desc:"It is a Entertaining site build using React.js & The MovieDB for Movie Data",
             codeUrl:"https://github.com/Shivam1272/netflix-clone",
-            demoUrl:""
+            demoUrl:"shivam-netflixclone.netlify.app"
         },
         // {
         //     id:4,
