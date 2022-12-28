@@ -10,9 +10,9 @@ function Project({project}) {
             {title}
           </h2>
           <p>{desc}</p>
-          <div className="card-actions justify-end primary">
+          <div className="card-actions justify-between primary">
             {demoUrl &&
-              <button>
+              <button className='btn btn-primary'>
                 <a href={demoUrl} rel="noreferrer" target='_blank'>Demo</a>
               </button>
             }
