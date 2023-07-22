@@ -31,7 +31,7 @@ function Services() {
     ]
   return (
     <div className='m-5 flex flex-col justify-center items-center' name='services'>
-        <h1 className='text-lg lg:text-3xl font-bold text-secondary text-center py-10'>My Services</h1>
+        <h1 className='text-lg lg:text-3xl font-bold text-secondary text-center py-10'>My Skills</h1>
         <div className='grid grid-cols-1 lg:grid-cols-3 gap-10 md:grid-cols-2 py-10 justify-center items-center'>
             {
                 services.map((service) => (

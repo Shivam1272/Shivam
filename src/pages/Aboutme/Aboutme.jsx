@@ -3,14 +3,13 @@ import myphoto from '../../assets/aboutme/dev2.jpg'
 function Aboutme() {
   return (
     <div className="hero  bg-base-200" name='aboutme'>
-        About Me
+        {/* About Me */}
         <div className="hero-content flex-col lg:flex-row">
             <div className='w-[300px] lg:w-full'>
                 <img className='rounded-full' src={myphoto} alt='Dev Profile Pic'/>
             </div>
             <div>
-                <h1 className="text-5xl font-bold text-secondary flex justify-center items-center">
-                    </h1>
+                <h1 className="text-5xl font-bold text-secondary flex justify-center items-center">About me </h1>
                 <p className="py-6 lg:text-lg text-sm text-left" >
                     Hi! My name is Shivam Patel and I am a web developer with a passion for building intuitive and visually appealing websites. I have a strong foundation in HTML, CSS, and JavaScript, and am experienced in using modern web development frameworks such as React and Next.
                     <br/>

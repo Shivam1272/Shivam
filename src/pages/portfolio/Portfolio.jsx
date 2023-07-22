@@ -1,6 +1,6 @@
 import React from 'react'
 import Project from './Project'
-import ecommerce from '../../assets/project/ecommerce.png'
+import rickmorty from '../../assets/project/rickmorty.png'
 import netflix from '../../assets/project/netflix.png'
 import instagram  from '../../assets/project/instagram.png'
 
@@ -8,11 +8,11 @@ function Portfolio() {
     const projects =[
         {
             id:1,
-            title:"e-commerce[Flipkart Clone]",
-            projectUrl:ecommerce,
-            desc:"It is an ecommerce site build using a MERN technology .",
-            codeUrl:"https://github.com/Shivam1272/Flipkart-Clone",
-            demoUrl:""
+            title:"Ricy&Morty",
+            projectUrl:rickmorty,
+            desc:"A web application based on the popular animated TV series Rick and Morty",
+            codeUrl:"https://github.com/Shivam1272/rick-morty",
+            demoUrl:"https://shivampatel-rickandmorty.netlify.app/"
         },
         {
             id:2,
