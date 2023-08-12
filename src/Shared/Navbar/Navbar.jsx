@@ -31,7 +31,7 @@ function Navbar() {
     </ul>
   </div>
   <div className="navbar-end">
-    <a href='./ShivamResume.pdf' download={true} target='_blank' className="btn text-secondary font-bold border-2 border-red-600 rounded">Download Resume </a>
+    <a href='./ShivamPatel.pdf' download={true} target='_blank' className="btn text-secondary font-bold border-2 border-red-600 rounded">Download Resume </a>
   </div>
 </div>
   )
